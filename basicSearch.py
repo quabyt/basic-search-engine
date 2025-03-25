@@ -126,7 +126,7 @@ if __name__ == '__main__':
     engine = SearchEngine()
 
     # Belgeleri dizine ekleyin (kendi dizininize göre değiştirin)
-    doc_dir = r'C:\\Users\\hsngu\\Downloads\\documents'  # Windows yolu
+    doc_dir = r'C:\\Users\\user\\Downloads\\documents'  # Windows yolu
     if not os.path.exists(doc_dir):
         print(f"Hata: Belirtilen klasör bulunamadı: {doc_dir}")
     else:
